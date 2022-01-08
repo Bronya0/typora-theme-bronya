@@ -72,21 +72,20 @@ h4,
 h5,
 h6 {
 	font-family: Microsoft YaHei;
-	font-weight: bold;
 	padding-bottom: 0.3em;
 	border-bottom: 1px solid #d8dee4;
+	font-weight: bold;
+	margin-bottom: 1.5em;
 }
 h1 {
-	font-size: 1.875em;
+	font-size: 30px;
 	/*30 / 16*/
 	line-height: 1.6em;
 	/* 48 / 30*/
 	margin-top: 2em;
 }
-h2,
-h3 {
-	font-size: 1.3125em;
-	/*21 / 16*/
+h2{
+	font-size: 25px;
 	line-height: 1.15;
 	/*24 / 21*/
 	margin-top: 2.285714em;
@@ -95,23 +94,21 @@ h3 {
 	/*24 / 21*/
 }
 h3 {
-	font-weight: normal;
+	font-size: 20px;
+	/*21 / 16*/
+	line-height: 1.15;
+	/*24 / 21*/
+	margin-top: 2.285714em;
+	/*48 / 21*/
+	margin-bottom: 1.15em;
+	/*24 / 21*/
 }
+
 h4 {
-	font-size: 1.125em;
+	font-size: 16px;
 	/*18 / 16*/
 	margin-top: 2.67em;
 	/*48 / 18*/
-}
-h5,
-h6 {
-	font-size: 1em;
-	/*16*/
-}
-h1 {
-	border-bottom: 1px solid;
-	margin-bottom: 1.875em;
-	padding-bottom: 0.8125em;
 }
 /* links */
 
@@ -126,14 +123,6 @@ a:active {
 /* block spacing */
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin-bottom: 1.5em;
-}
 /* blockquote */
 
 blockquote {
@@ -141,12 +130,7 @@ blockquote {
 	margin-left: 1em;
 	padding-left: 1em;
 }
-/* lists */
 
-ul,
-ol {
-	margin: 0 0 1.5em 1.5em;
-}
 /* tables */
 .md-meta,.md-before, .md-after {
 	color:#999;
@@ -173,7 +157,7 @@ td {
 
 code,
 .md-fences {
-	background-color: #dadada;
+    color: #0079bb;
 }
 
 code {
@@ -187,13 +171,7 @@ tt {
 	font-size: .875em;
 	line-height: 1.714285em;
 }
-/* some fixes */
 
-h1 {
-	line-height: 1.3em;
-	font-weight: normal;
-	margin-bottom: 0.5em;
-}
 
 p + ul,
 p + ol{
@@ -542,11 +520,7 @@ input {
 	color: white;
 }
 
-//自定义css
 
-code,pre{
-font-family: consolas;
-}
 
 /**
     Name: IntelliJ IDEA darcula theme
@@ -569,11 +543,11 @@ font-family: consolas;
 .cm-s-inner span.cm-operator { color: #A9B7C6; }
 .cm-s-inner span.cm-string { color: #6A8759; }
 .cm-s-inner span.cm-string-2 { color: #6A8759; }
-.cm-s-inner span.cm-comment { color: #61A151; font-style: italic; }
+.cm-s-inner span.cm-comment { color: #999; }
 .cm-s-inner span.cm-link { color: #CC7832; }
 .cm-s-inner span.cm-atom { color: #CC7832; }
 .cm-s-inner span.cm-error { color: #BC3F3C; }
-.cm-s-inner span.cm-tag { color: #629755; font-weight: bold; font-style: italic; text-decoration: underline; }
+.cm-s-inner span.cm-tag { color: #bea063; font-weight: bold; font-style: italic; text-decoration: underline; }
 .cm-s-inner span.cm-attribute { color: #6897bb; }
 .cm-s-inner span.cm-qualifier { color: #6A8759; }
 .cm-s-inner span.cm-bracket { color: #A9B7C6; }
@@ -593,7 +567,7 @@ font-family: consolas;
 .cm-s-inner div.CodeMirror-selected { background: #214283; }
 
 .CodeMirror-hints.darcula {
-  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: Consolas, 'Courier New', monospace;
   color: #9C9E9E;
   background-color: #3B3E3F !important;
 }
@@ -606,20 +580,20 @@ font-family: consolas;
 
 
 /*大纲紧凑*/
-
-/*二级标题缩小*/
 .outline-item {
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .outline-h1{
 	font-size: 14px !important;
 }
 
-.outline-h4{
-	font-size: 13.5px !important;
+.outline-h3,.outline-h4{
+	font-size: 13px !important;
 }
-
+.outline-expander {
+    height: 1rem !important;
+}
 li.md-list-item {
     line-height: 120%;
 }
