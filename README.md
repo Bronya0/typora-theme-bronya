@@ -24,6 +24,8 @@ typora主题，叫做bronya。在newsprint的基础上做的修改。
 **只有一个目的，看的舒服~**
 
 # 示例：
+![bronya - 副本](https://github.com/Bronya0/typora-theme-bronya/assets/55728567/f1ef282c-af1c-47de-b8ce-a8fe42993757)
+
 ![image](https://github.com/Bronya0/typora-theme-bronya/assets/55728567/eeec59b3-e057-4ff5-b551-baba3153e83f)
 
 ![image](https://github.com/Bronya0/typora-theme-bronya/assets/55728567/44f5872b-be18-40bd-9fe8-b181a8f06342)
