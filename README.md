@@ -4,15 +4,14 @@
 
 # typora-theme-bronya
 
-typora主题，叫做bronya
+typora主题，叫做bronya。在newsprint的基础上做的修改。
+
+**下载使用：**
 
 将bronya.css下载放入主题文件夹下即可，然后切换。
 
-在newsprint的基础上做的修改。
-
-
 ---
-
+# 特色
 
 1、使用中文微软雅黑字体！
 
@@ -20,7 +19,7 @@ typora主题，叫做bronya
 
 3、代码高亮使用IDEA的配色！
 
-4、大量细节调整
+4、大量细节调整！
 
 **只有一个目的，看的舒服~**
 
