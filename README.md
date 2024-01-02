@@ -1,3 +1,5 @@
+自用主题，主打一个阅读舒适。
+
 # typora-theme-bronya
 
 typora主题，叫做bronya
@@ -6,7 +8,6 @@ typora主题，叫做bronya
 
 在newsprint的基础上做的修改。
 
-公众号【崩天的勾玉】欢迎关注~
 
 ---
 
@@ -22,3 +23,7 @@ typora主题，叫做bronya
 4、大量细节调整
 
 只有一个目的，看的舒服~
+
+# 示例：
+![image](https://github.com/Bronya0/typora-theme-bronya/assets/55728567/eeec59b3-e057-4ff5-b551-baba3153e83f)
+
