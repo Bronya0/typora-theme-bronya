@@ -1,4 +1,6 @@
-
+::marker {
+    font-size: 14px;
+}
 
 pre {
 	--select-text-bg-color: #36284e;
@@ -12,7 +14,7 @@ html {
 
 html, body {
 	background-color: #f3f2ee;
-	font-family: Microsoft YaHei;
+	font-family: Arail,Microsoft YaHei;
 	color: #1f0909;
 	line-height: 1.5em;
 }
@@ -127,7 +129,6 @@ a:active {
 
 blockquote {
 	border-left: 3px solid;
-	margin-left: 1em;
 	padding-left: 1em;
 }
 
@@ -152,17 +153,19 @@ th {
 }
 td {
 	vertical-align: top;
-	padding: .25em .25em .25em .4em;
+	padding: .5em .25em .5em .4em;
 }
 
-code,
 .md-fences {
     color: #0079bb;
 }
 
 code {
+	color: #c7254e;
 	padding-left: 2px;
 	padding-right: 2px;
+	font-family: consolas;
+    border-radius: 4px;
 }
 
 pre,
@@ -348,15 +351,15 @@ hr {
 }
 
 .outline-expander:before {
-  content: "\f0da";
+  content: "\f105";
   font-family: FontAwesome;
-  font-size:14px;
+  font-size:12px;
   top: 1px;
 }
 
 .outline-expander:hover:before,
 .outline-item-open>.outline-item>.outline-expander:before {
-  content: "\f0d7";
+  content: "\f107";
 }
 
 .modal-content {
@@ -598,7 +601,4 @@ li.md-list-item {
     line-height: 120%;
 }
 
-img {
-    max-width: 77%;
-    float: left;
-}
+
