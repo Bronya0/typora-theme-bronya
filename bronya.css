@@ -112,6 +112,20 @@ h4 {
 	margin-top: 2.67em;
 	/*48 / 18*/
 }
+
+h5 {
+	font-size: 16px;
+	/*18 / 16*/
+	margin-top: 2.67em;
+	/*48 / 18*/
+}
+
+h6 {
+	font-size: 16px;
+	/*18 / 16*/
+	margin-top: 2.67em;
+	/*48 / 18*/
+}
 /* links */
 
 a {
