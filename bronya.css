@@ -6,7 +6,9 @@ github仓库及更新地址：https://github.com/Bronya0/typora-theme-bronya
 如果你喜欢，不妨给仓库点个 star ，后续还会更新
 */
 
-
+p img{
+    margin: 0 !important;
+}
 
 ::marker {
     font-size: 12px;
@@ -259,9 +261,13 @@ blockquote ol {
 thead {
 	background-color: #dadada;
 }
-tr:nth-child(even) {
+
+tbody tr{
 	background: #e8e7e7;
+	border: 1px solid #ddd;
 }
+
+
 hr {
 	border-color: #c5c5c5;
 }
