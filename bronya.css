@@ -188,12 +188,13 @@ td {
 }
 
 code {
-	color: #c7254e;
-	padding-left: 2px;
-	padding-right: 2px;
-	font-family: consolas;
+    background: #ce601c1a !important;
+    color: #9e3f00 !important;
+    padding: 2px 3px;
+    font-family: consolas, Microsoft YaHei;
     border-radius: 4px;
 }
+
 
 pre,
 code,
@@ -630,4 +631,5 @@ input {
 li.md-list-item {
     line-height: 130%;
 }
+
 
